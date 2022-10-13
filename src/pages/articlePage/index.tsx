@@ -205,7 +205,7 @@ export default function ArticlePage() {
 
                      <Link href={`/articlePage?article_id=${article_id}`}>
                         <div className={styles.bannerArticle}>
-                           <img src={"http://api.builderseunegocioonline.com.br/files/" + banner} alt="banner do artigo" />
+                           <img src={"https://apiblog.builderseunegocioonline.com.br/files/" + banner} alt="banner do artigo" />
                         </div>
                      </Link>
 
@@ -271,7 +271,7 @@ export default function ArticlePage() {
                                        <Link href={`/articlePage?article_id=${posts.id}`}>
                                           <div className={styles.article}>
                                              <h4>{posts?.title}</h4>
-                                             <img src={"http://api.builderseunegocioonline.com.br/files/" + posts?.banner} alt="banner do artigo" />
+                                             <img src={"https://apiblog.builderseunegocioonline.com.br/files/" + posts?.banner} alt="banner do artigo" />
                                           </div>
                                        </Link>
                                     </div>

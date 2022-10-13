@@ -248,7 +248,7 @@ export default function Contacts() {
                     </div>
                     <label>Foto do usúario</label>
                     <div className={styles.userImg}>
-                      <img src={"http://api.builderseunegocioonline.com.br/files/" + use?.photo} alt="foto usuario" />
+                      <img src={"https://apiblog.builderseunegocioonline.com.br/files/" + use?.photo} alt="foto usuario" />
                     </div>
                   </div>
                 </>

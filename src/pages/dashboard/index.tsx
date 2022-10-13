@@ -509,7 +509,7 @@ export default function Dashboard() {
                                     <div className={styles.boxArticle}>
                                        <div className={styles.titleArticle}>{articl?.title}</div>
                                        <div className={styles.listArticles}>
-                                          <div className={styles.bannerArticle}><img src={"http://api.builderseunegocioonline.com.br/files/" + articl?.banner} alt="banner do artigo" /></div>
+                                          <div className={styles.bannerArticle}><img src={"https://apiblog.builderseunegocioonline.com.br/files/" + articl?.banner} alt="banner do artigo" /></div>
                                           <div className={styles.descriptionArticle} dangerouslySetInnerHTML={{ __html: articl?.description }}></div>
                                           <div className={styles.datesAndPublish}>
                                              <span>Categoria: {articl?.categoryName}</span>
@@ -633,7 +633,7 @@ export default function Dashboard() {
                                     <div className={styles.boxArticle}>
                                        <div className={styles.titleArticle}>{articlAdmin?.title}</div>
                                        <div className={styles.listArticles}>
-                                          <div className={styles.bannerArticle}><img src={"http://api.builderseunegocioonline.com.br/files/" + articlAdmin?.banner} alt="banner do artigo" /></div>
+                                          <div className={styles.bannerArticle}><img src={"https://apiblog.builderseunegocioonline.com.br/files/" + articlAdmin?.banner} alt="banner do artigo" /></div>
                                           <div className={styles.descriptionArticle} dangerouslySetInnerHTML={{ __html: articlAdmin?.description }}></div>
                                           <div className={styles.datesAndPublish}>
                                              <span>Categoria: {articlAdmin?.categoryName}</span>

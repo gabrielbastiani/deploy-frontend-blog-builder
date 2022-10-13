@@ -49,7 +49,7 @@ export function HeaderPainel() {
 
                <div className={styles.userImg}>
                   <Link href="/detailUser">
-                     <img src={"http://api.builderseunegocioonline.com.br/files/" + user?.photo} alt="foto usuario" />
+                     <img src={"https://apiblog.builderseunegocioonline.com.br/files/" + user?.photo} alt="foto usuario" />
                   </Link>
                </div>
                

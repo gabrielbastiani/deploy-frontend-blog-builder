@@ -113,7 +113,7 @@ export default function AuthorArticles() {
 
                                  <Link href={`/articlePage?article_id=${article.id}`}>
                                     <div className={styles.bannerArticle}>
-                                       <img src={"http://api.builderseunegocioonline.com.br/files/" + article?.banner} alt="banner do artigo" />
+                                       <img src={"https://apiblog.builderseunegocioonline.com.br/files/" + article?.banner} alt="banner do artigo" />
                                     </div>
                                  </Link>
 
