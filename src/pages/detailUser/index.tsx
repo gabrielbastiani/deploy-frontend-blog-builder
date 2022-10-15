@@ -171,7 +171,7 @@ export default function DetailUser() {
                 />
               )}
             </label>
-            
+
             <p>Carregue uma nova foto sua</p>
 
             <div className={styles.buttonPhoto}>
