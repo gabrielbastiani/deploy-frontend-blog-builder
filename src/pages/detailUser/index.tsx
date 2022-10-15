@@ -150,15 +150,10 @@ export default function DetailUser() {
             <p>Você é um usúario <b>administrador!</b></p>
           )}
 
-<<<<<<< HEAD
-          <Image className={styles.userImg} src={"http://localhost:3333/files/" + user?.photo} width={540} height={458} alt="foto usuario" />
+          <Image className={styles.userImg} src={"https://apiblog.builderseunegocioonline.com.br//files/" + user?.photo} width={540} height={458} alt="foto usuario" />
 
           <form className={styles.form} onSubmit={handleRegisterPhoto}>
 
-=======
-          <Image className={styles.userImg} src={"http://localhost:3333/files/" + user?.photo} width={600} height={418} alt="foto usuario" />
-          <form className={styles.form} onSubmit={handleRegister}>
->>>>>>> 1c6f8e0643239c0864ac04ae7013a61ad3314ac9
             <label className={styles.labelAvatar}>
 
               <span>
@@ -179,7 +174,6 @@ export default function DetailUser() {
             
             <p>Carregue uma nova foto sua</p>
 
-<<<<<<< HEAD
             <div className={styles.buttonPhoto}>
               <Button
                 type="submit"
@@ -192,9 +186,6 @@ export default function DetailUser() {
           </form>
 
           <form className={styles.form} onSubmit={handleRegister}>
-=======
-            <p>(é obrigatorio carregar a imagem novamente para atualizar qualquer dado)</p>
->>>>>>> 1c6f8e0643239c0864ac04ae7013a61ad3314ac9
 
             <strong>clique no nome para escrever um novo nome*</strong>
 
