@@ -7,6 +7,7 @@ const nextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
+  },
   images: {
     domains: ['apiblog.builderseunegocioonline.com.br'],
     remotePatterns: [
