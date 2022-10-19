@@ -6,7 +6,7 @@ import { SearchBar } from '../components/SearchBar/index'
 import { RecentPosts } from '../components/RecentPosts/index'
 import styles from '../../styles/home.module.scss'
 import { Newslatter } from '../components/Newslatter/index'
-import {CookieConsent} from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 
 export default function Home() {
