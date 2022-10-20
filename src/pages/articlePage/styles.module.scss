@@ -17,6 +17,7 @@
 
 .sectionContent>nav {
    grid-area: nav;
+   padding: 0 90px;
 }
 
 .sectionContent>article {
@@ -296,6 +297,10 @@
 }
 
 @media (max-width: 478px) {
+   .sectionContent>nav {
+      padding: 0 15px;
+   }
+
    .titleArticle {
 
       h1 {
