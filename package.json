@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "postbuild": "cross-env next-sitemap --config next-sitemap.js",
+    "prod:build": "yarn codegen && yarn build && yarn postbuild"
   },
   "dependencies": {
     "@tinymce/tinymce-react": "^4.1.0",
