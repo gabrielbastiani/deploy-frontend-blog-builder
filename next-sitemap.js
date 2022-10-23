@@ -1,9 +1,9 @@
 module.exports = {
-    siteUrl: 'http://localhost:3000',
+    siteUrl: 'https://blog.builderseunegocioonline.com.br',
     generateRobotsTxt: true, // opcional
     priority: null,
     changefreq: null,
     robotsTxtOptions: {
-      additionalSitemaps: ['http://localhost:3000/server-sitemap.xml'],
+      additionalSitemaps: ['https://blog.builderseunegocioonline.com.br/server-sitemap.xml'],
     },
   }
