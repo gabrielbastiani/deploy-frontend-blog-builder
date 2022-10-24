@@ -21,7 +21,7 @@ import { setupAPIClient } from "../../services/api";
 
 
 
-export default function ArticlePage() {
+export default function ArticlePageRecent() {
 
    const router = useRouter();
 
@@ -242,7 +242,7 @@ export default function ArticlePage() {
                               return (
                                  <>
                                     <div className={styles.articleBoxFooter}>
-                                       <Link href={`/articlePageRecent?title=${posts.title}`}>
+                                       <Link href={`/articlePage?title=${posts.title}`}>
                                           <div className={styles.article}>
                                              <h4>{posts?.title}</h4>
                                              <Image src={"https://apiblog.builderseunegocioonline.com.br/files/" + posts?.banner} width={740} height={418} alt="banner do artigo" />
@@ -264,13 +264,13 @@ export default function ArticlePage() {
 
                      <div className={styles.pagination}>
                         <button className={styles.antes}>
-                           <Link href={`/articlePageArrow?title=${postPrevious}`}>
+                           <Link href={`/articlePage?title=${postPrevious}`}>
                               {postPreviousTitle}
                            </Link>
                         </button>
 
                         <button className={styles.proximo}>
-                           <Link href={`/articlePageArrow?title=${postNext}`}>
+                           <Link href={`/articlePage?title=${postNext}`}>
                               {postNextTitle}
                            </Link>
                         </button>
