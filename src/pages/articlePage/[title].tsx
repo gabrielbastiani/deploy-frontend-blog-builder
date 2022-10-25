@@ -163,7 +163,7 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
                      </div>
 
                      <div className={styles.bannerArticle}>
-                        <Image src={"http://localhost:3333/files/" + banner} width={740} height={418} alt="banner do artigo" />
+                        <Image src={"https://apiblog.builderseunegocioonline.com.br/files/" + banner} width={740} height={418} alt="banner do artigo" />
                      </div>
 
                      <div className={styles.descriptionArticle} dangerouslySetInnerHTML={{ __html: description }}></div>
@@ -228,7 +228,7 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
                                        <Link href={`/articlePage/${posts.title}`}>
                                           <div className={styles.article}>
                                              <h4>{posts?.title}</h4>
-                                             <Image src={"http://localhost:3333/files/" + posts?.banner} width={740} height={418} alt="banner do artigo" />
+                                             <Image src={"https://apiblog.builderseunegocioonline.com.br/files/" + posts?.banner} width={740} height={418} alt="banner do artigo" />
                                           </div>
                                        </Link>
                                     </div>
